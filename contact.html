@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">My Portfolio</div>
+
+        <!-- Navigation Bar -->
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Header -->
+        <div class="banner">Get in Touch</div>
+
+        <!-- Sidebar (Information) -->
+        <div class="sidebar">
+            <h3>Information</h3>
+            <p>Feel free to contact me for collaboration, job opportunities, or any inquiries.</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="body-area">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to work together, please fill out the form below:</p>
+            
+            <form action="submit_form.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">© 2025 My Portfolio</div>
+    </div>
+</body>
+</html>
